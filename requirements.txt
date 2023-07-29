@@ -1,7 +1,8 @@
-requests==2.21.0
+requests
 cryptography
 Flask
-oauthlib==3.0.1
-pyOpenSSL==19.0.0
-Flask-Login==0.4.1
-Werkzeug~=2.0.0
+oauthlib
+pyOpenSSL
+Flask-Login
+Werkzeug
+py-dotenv
