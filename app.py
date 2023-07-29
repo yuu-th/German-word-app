@@ -24,9 +24,12 @@ from user import User
 load_dotenv()
 
 # 設定情報
-GOOGLE_CLIENT_ID = os.environ.get("GOOGLE_CLIENT_ID")
-GOOGLE_CLIENT_SECRET = os.environ.get("GOOGLE_CLIENT_SECRET")
-GOOGLE_DISCOVERY_URL = os.environ.get("GOOGLE_DISCOVERY_URL")
+GOOGLE_CLIENT_ID = os.environ["GOOGLE_CLIENT_ID"]
+
+GOOGLE_CLIENT_SECRET = os.environ["GOOGLE_CLIENT_SECRET"]
+
+GOOGLE_DISCOVERY_URL = os.environ["GOOGLE_DISCOVERY_URL"]
+
 
 # Flaskセットアップ
 app = Flask(__name__)
