@@ -1,0 +1,9 @@
+FROM python
+
+ARG project_directory
+WORKDIR $project_directory
+
+RUN mkdir /code
+
+COPY requirements.txt /code/
+RUN pip install -r /code/requirements.txt

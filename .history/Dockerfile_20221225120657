@@ -1,0 +1,6 @@
+FROM python
+
+ARG project_directory
+WORKDIR $project_directory
+
+RUN pip install flask
