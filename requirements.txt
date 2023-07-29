@@ -5,4 +5,4 @@ oauthlib
 pyOpenSSL
 Flask-Login
 Werkzeug
-py-dotenv
+python-dotenv
